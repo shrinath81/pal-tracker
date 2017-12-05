@@ -67,6 +67,7 @@ jobs:
     params:
       manifest: pal-tracker/manifest-review.yml
       path: pal-tracker-artifacts/pal-tracker-*.jar
+      current_app_name: pal-tracker
       environment_variables:
         WELCOME_MESSAGE: "Hello from the review environment"
 
